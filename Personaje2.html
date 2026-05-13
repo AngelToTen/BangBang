@@ -17,15 +17,12 @@
             <h1>SELECCIONA TU PERSONAJE</h1>
         </div>
         <div class="personajes">
-            <!-- ==== Boton Izquierda ==== -->
             <button class="anterior" onclick="anteriorPersonaje()">
                 <img src="img/left.png">
             </button>
-            <!-- ==== Carrusel Personajes ==== -->
             <div class="personaje">
                 <img src="img/p1.png" id="personaje" style="transform: rotateY(180deg);">
             </div>
-            <!-- ==== Boton Derecha ==== -->
             <button class="siguiente" onclick="siguientePersonaje()">
                 <img src="img/right.png">
             </button>   
@@ -39,7 +36,6 @@
 <script type="text/javascript" src="funciones.js"></script>
 <script type="text/javascript">
     window.addEventListener('load', function() {
-        inicializarSelectorPersonaje();
         quitarBG();
     });
 </script>
